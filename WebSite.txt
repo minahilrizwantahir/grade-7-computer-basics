@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Computer Basics – Grade 7</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f6f8;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #1e88e5;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #1565c0;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 20px;
+      background: white;
+      margin: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #1e88e5;
+    }
+    .images {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      margin-top: 10px;
+    }
+    .images img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background: #1e88e5;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Cover Page -->
+<section style="min-height:100vh; display:flex; align-items:center; justify-content:center; background:linear-gradient(135deg, #1e88e5, #42a5f5); color:white; text-align:center; margin:0; border-radius:0;">
+  <div>
+    <h1 style="font-size:48px; margin-bottom:10px;">Computer Basics</h1>
+    <h2 style="font-size:28px; margin-top:0;">Grade 7</h2>
+    <p style="font-size:18px; margin-top:20px;"><strong>Students:</strong></p>
+    <p style="font-size:18px;">1. Minahil Rizwan</p>
+    <p style="font-size:18px;">2. Anam Fatima</p>
+    <p style="font-size:18px;">3. Um-e-Abeeha</p>
+    <p style="font-size:18px;">4. Hafsa Iftikhar</p>
+    <p style="font-size:18px;">5. Asma Amir</p>
+    <p style="font-size:18px;"><strong>School:</strong> APS GLD</p>
+    <p style="font-size:18px;"><strong>Class:</strong> 7th Grade (Section A)</p>
+    <p style="font-size:18px;"><strong>Teacher:</strong> Ma'am Zernab</p>
+    <p style="margin-top:30px; font-size:16px;">Academic Year 2026</p>
+  </div>
+</section>
+
+
+
+<header>
+  <h1>Computer Basics for Grade 7</h1>
+  <p>Learn computers in a simple and fun way</p>
+  <p><strong>Students:</strong> Minahil Rizwan, Anam Fatima, Um-e-Abeeha, Hafsa Iftikhar, Asma Amir | <strong>School:</strong> APS GLD | <strong>Class:</strong> 7th Grade (Section A) | <strong>Teacher:</strong> Ma'am Zernab</p>
+</header>
+
+<nav>
+  <a href="#computer">What is a Computer</a>
+  <a href="#parts">Parts of Computer</a>
+  <a href="#software">Software</a>
+  <a href="#uses">Uses of Computer</a>
+</nav>
+
+<section id="computer">
+  <h2>What is a Computer?</h2>
+  <p>A computer is an electronic machine that accepts data, processes it, and gives useful information as output. It makes our work easy and fast.</p>
+  <div class="images">
+    <img src="https://via.placeholder.com/300x200?text=Computer" alt="Computer image">
+  </div>
+</section>
+
+<section id="parts">
+  <h2>Main Parts of a Computer</h2>
+  <ul>
+    <li><b>Monitor:</b> Shows information on the screen</li>
+    <li><b>CPU:</b> The brain of the computer</li>
+    <li><b>Keyboard:</b> Used to type</li>
+    <li><b>Mouse:</b> Used to point and click</li>
+  </ul>
+  <div class="images">
+    <img src="https://via.placeholder.com/300x200?text=Monitor" alt="Monitor">
+    <img src="https://via.placeholder.com/300x200?text=Keyboard" alt="Keyboard">
+    <img src="https://via.placeholder.com/300x200?text=Mouse" alt="Mouse">
+  </div>
+</section>
+
+<section id="software">
+  <h2>Software</h2>
+  <p>Software is a set of programs that tells the computer what to do.</p>
+  <ul>
+    <li><b>System Software:</b> Windows, Linux</li>
+    <li><b>Application Software:</b> MS Word, Paint, Browser</li>
+  </ul>
+  <div class="images">
+    <img src="https://via.placeholder.com/300x200?text=Software" alt="Software">
+  </div>
+</section>
+
+<section id="uses">
+  <h2>Uses of Computer</h2>
+  <ul>
+    <li>Education and learning</li>
+    <li>Typing and drawing</li>
+    <li>Internet and communication</li>
+    <li>Games and entertainment</li>
+  </ul>
+  <div class="images">
+    <img src="https://via.placeholder.com/300x200?text=Education" alt="Education">
+    <img src="https://via.placeholder.com/300x200?text=Internet" alt="Internet">
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Computer Basics – Grade 7 | APS GLD</p>
+</footer>
+
+</body>
+</html>
